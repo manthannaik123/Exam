@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MCQ Exam</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/007/396/212/small_2x/illustration-of-backpack-school-bag-storage-icon-icon-free-vector.jpg">
+    <link rel="stylesheet" href="Login.css">
+  </head>
+<body>
+    <div class="navv">
+      <h1 id="ch">Challenge Zone..</h1>
+      <button id="but"><a href=Home.html style="text-decoration: none;color: white;">Register</a></button>
+    </div>
+    <div class="back">
+        <form class="f">
+            <label style="position: relative;top: 20%;left: 10%;font-size: 20px;">Username:</label><br>
+            <input type="text" id="us1" placeholder="Enter the username" required><br><br>
+            <label style="position: relative;top: 20%;left: 10%;font-size: 20px;">Password:</label><br>
+            <input type="password" id="pa1" placeholder="Enter the Password" required><br><br>
+            <button id="bu1">Login</button>
+        </form>
+    </div>
+     <div class="navv1">
+      <a href="Aboutus.html" id="ab">About Us</a>
+      <a href="Developer.html" id="de">Developer</a>
+    </div>
+    <div id="loadingPopup" style="
+          display: none;
+          position: fixed;
+          top: 30%;
+          left: 35%;
+          width: 300px;
+          height: 150px;
+          background-color: black;
+          color: white;
+          border: 2px solid white;
+          border-radius: 10px;
+          text-align: center;
+          padding-top: 30px;
+          ">
+    <div id="loadingText">Loading... 0%</div>
+</div>
+  <div id="errorPopup" style="
+          display: none;
+          position: fixed;
+          top: 30%;
+          left: 35%;
+          width: 300px;
+          height: 150px;
+          background-color: black;
+          color: white;
+          border: 2px solid white;
+          border-radius: 10px;
+          text-align: center;
+          padding-top: 30px;
+          ">
+        <div id="Text"> Wrong password</div>
+    <script src="login.js"></script>
+</body>
+</html>

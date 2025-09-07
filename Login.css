@@ -1,0 +1,85 @@
+.navv{
+    background-color: rgb(48, 42, 116);
+    box-shadow: 10px 10px 10px 15px rgb(54, 43, 43);
+    height: 70px;
+    width: auto;
+}
+#ch{
+    color: white; 
+    padding-left: 20px;
+    position: relative;
+    top: 10px;
+}
+#but{
+    color: white;
+    margin-left: 80%;
+    align-items: center;
+    background-color: rgb(74, 71, 71);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 35px;
+}
+.back{
+    background-image: url(back.jpg);
+    height: 600px;
+    width: auto;
+    position: relative;
+    top: 10px;
+}
+.f{
+    border: 1px solid black;
+    position: relative; 
+    left: 68%;
+    top: 15%;
+    background-color: grey; 
+    border-radius: 5px;
+    height: 400px; 
+    width: 450px;
+}
+#us1{
+    width: 400px;
+    position: relative;
+    left: 20px;
+    top: 90px;
+    height: 30px;
+}
+#pa1{
+    width: 400px;
+    position: relative;
+    left: 20px;
+    top: 90px;
+    height: 30px;
+}
+#bu1{
+    width: 400px;
+    position: relative;
+    left: 20px;
+    top: 100px;
+    height: 30px;
+    background-color: greenyellow;
+}
+.navv1{
+    background-color: rgb(48, 42, 116);
+    height: 50px;
+    box-shadow: 15px 15px 15px rgb(62, 60, 60);
+    position: relative;
+    top: 20px;
+}
+#ab{
+    text-decoration: none;
+    padding-left: 20%;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+#de{
+    text-decoration: none;
+    padding-left: 50%;
+    font-size: 20px;
+    color: white;
+     position: relative;
+    top: 10px;
+}

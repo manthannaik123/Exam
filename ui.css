@@ -1,0 +1,71 @@
+.navv{
+    background-color: rgb(48, 42, 116);
+    box-shadow: 10px 10px 10px 15px rgb(54, 43, 43);
+    height: 70px;
+    width: auto;
+}
+#but{
+    color: white;
+    margin-left: 80%;
+    align-items: center;
+    background-color: rgb(74, 71, 71);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 35px;
+}
+#ch{
+    color: white; 
+    padding-left: 20px;
+    position: relative;
+    top: 10px;
+}
+.back{
+    background-image: url(images.jpeg);
+    height: 600px;
+    width: auto;
+    position: relative;
+    top: 10px;
+}
+#t{
+    border: 1px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(243, 216, 166);
+    margin-left: 35%;
+    position: relative;
+    top: 120px;
+    height: 400px;
+    
+}
+.b{
+    border-radius: 5px;
+}
+.b:hover{
+    background-color: greenyellow;
+    transform: scale(1.05);
+}
+.navv1{
+    background-color: rgb(48, 42, 116);
+    height: 50px;
+    box-shadow: 15px 15px 15px rgb(62, 60, 60);
+    position: relative;
+    top: 20px;
+}
+#ab{
+    text-decoration: none;
+    padding-left: 20%;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+#de{
+    text-decoration: none;
+    padding-left: 50%;
+    font-size: 20px;
+    color: white;
+     position: relative;
+    top: 10px;
+}
